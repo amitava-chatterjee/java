@@ -4,3 +4,12 @@ FunctionalInterface is introduced in Java 1.8
 2. Consumer -> no result only modifies data
 3. Function -> input and output
 4. Supplier -> no input only supply
+
+There is a concept of BiXXX:
+1. BiPredicate -> takes 2 arguments only returns boolean result
+2. BiConsumer -> takes 2 arguments and doesn't give result only modifies data
+3. BiFunction -> takes 2 arguments as input and gives output
+
+NOTE:
+1. There are no concept of TriXXX or QuadXXX
+2. Java 1.8 has inbuilt FunctionalInterface that can take only 1-2 arguments and not more than that
