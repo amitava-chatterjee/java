@@ -1,0 +1,10 @@
+What are Stream?
+1. If we want to process bulk objects of a collection then we should go for Stream
+2. Way to operate or crawl over collections in Java 1.8 is Stream
+3. It is a special iterator class that allows processing collections of objects in a functional manner
+
+NOTE:
+It is important to know that java.io.InputStream or all the XXXStream classes we have inside java.io package is completely different from the classes we have inside java.util.stream
+
+1. java.io.XXXStream is sequence of characters or binary data which is used to write something to a file or to read data from a file
+2. Whereas java.util.stream.* from Java 1.8 is no where related to files, it helps us to process or perform bulk operations on each & every object in a collection in an efficient way

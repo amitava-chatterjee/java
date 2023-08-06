@@ -1,0 +1,6 @@
+Use of peek:
+- peek() exists mainly to support debugging.
+- It is similar to map, but it takes Consumer<? super T> object and perform some action on object and as usual returns nothing
+
+N.B.:
+- peek() is also an intermediate operator which will only run if any terminal operation will happen

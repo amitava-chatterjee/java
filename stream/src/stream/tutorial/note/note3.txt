@@ -1,0 +1,11 @@
+Difference between filter and map:
+
+filter:
+- If we want to fetch/filter objects from a collection and then create a different Stream object with those filtered objects then we use filter
+- Syntax: collection.stream().filter(Predicate<? super T> predicate)
+
+map:
+- If we want to perform some operation on each object rather filtering those objects and then create a different Stream object with updated objects (after operation is performed) (basically mapped all updated objects to that Stream) then we use map
+- Syntax: collection.stream().map(Function<? super T, ? extends R> mapper)
+
+N.B.: filter and map is nothing but configuration of Stream object

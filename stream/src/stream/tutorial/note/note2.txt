@@ -1,0 +1,8 @@
+Steps to create and process stream:
+
+1. Create a Stream object from a source (basically Collection)
+2. Process the created Stream object
+   a. Configuration of Stream object (using)
+      i. Map
+      ii. Filter
+   b. Processing of the configuration

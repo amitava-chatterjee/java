@@ -1,0 +1,9 @@
+Intermediate operation:
+- The operations which return another stream as a result are called intermediate operations
+- Intermediate operations are generally lazy
+- eg: filter(), map(), distinct(), sorted(), limit(), skip()
+
+Terminal operation:
+- The operations which return non-stream values like primitive or collection or return nothing are called terminal operations
+- You can chain multiple intermediate operations and none of them will do anything until you invoke a terminal operation. At the time, all the intermediate operation that you invoked earlier will be invoked along with the terminal operation
+- eg: forEach(), toArray(), reduce(), collect(), min(), max(), count(), anyMatch(), allMatch(), noneMatch(), findFirst(), findAny()
