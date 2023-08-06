@@ -1,0 +1,6 @@
+FunctionalInterface is introduced in Java 1.8
+
+1. Predicate -> only returns boolean result
+2. Consumer -> no result only modifies data
+3. Function -> input and output
+4. Supplier -> no input only supply

@@ -1,0 +1,36 @@
+Data types in JAVA:
+
+1. Primitive data type:
+-> Primitive data type (size of the data type is known by the compiler)
+-> It's decided at compile time and created in stack memory area
+-> No polymorphism is possible
+-> 8 members under the primitive data type
+
+1. byte
+2. short
+3. int
+4. char
+5. float
+6. double
+7. long
+8. boolean
+
+-> Primitive data types are strongly typed
+
+2. Reference data type:
+-> Reference Data type (size is unknown by compiler)
+-> So compiler has got nothing 2 do
+-> So only JVM/JRE can create them only at run time - taken from HEAP memory area
+-> Dynamic in nature
+-> 5 members under the reference data type
+
+1. class
+2. interface
+3. enum (from java 5)
+4. array
+5. record (from java 16)
+
+-> Every data type can be used as
+1. Local variable
+2. Instance variable
+3. Static variable

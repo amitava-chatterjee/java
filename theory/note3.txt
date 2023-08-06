@@ -1,0 +1,105 @@
+# Why OOPs?
+
+=> Before OOPs we have Procedural Programming
+
+1. Global variable (no security, no ownership / membership)
+-> If anyone use, the data will become his / her | As because global variable is written in 
+outside the scope of all functions, any function can manipulate or tampered the variable
+
+2. Lack of user defined data type (no real model data type)
+-> We can not create user-defined data type in POP | Max-2-Max we can create derived data type 
+like - array, struct, union | struct can be used only define the characteristics of an object 
+but not the behaviour of that object - thus we can't do real model programming in POPs | We 
+can not create Doctor, Student, Employee this type of data type in our system using POP
+
+# For these type of problem we need OOPs:
+
+=> First language of OOP is not C++ but C with classes
+=> C with classes will renamed with C++ after some time (Reason of name C++: World's first operator '++' was overloaded using operator overloading, to keep it memorable the name has been given C++)
+
+# Why Java?
+
+=> Java is not better C++ or not the enhancement of C++
+
+# Story behind Java:
+
+=> When C++ was popular (in 90's) there happened an incident (C++ was the most famous language 
+and microsoft was the no. 1 company at that time)
+
+=> World's 1st most popular OS windows 98 2nd edition was used mostly at that time
+
+=> Something happend on that time -> INTERNET was discovered
+
+=> After discover of INTERNET there was a revolution, everyone wants to participate in this cz 
+it is nothing but a global network where n no. of device will join and share data with each 
+other for business purpose and everyone wants promote their business with the help of INTERNET
+e-commerce & m-commerce (mobile based) was introduced at that time
+
+=> On that time there was a drawback of microsoft & everything is purchaseable (software like VB VC++ ASP.NET)
+
+=> Then a group silently entered in the market for open source perspective name "Red Hat Linux"
+and OS becomes free source to human
+
+=> On that time software development is nothing but client-server architecture and business 
+logic is done with VC++ (no internet or web app)
+
+=> In this kind of situation 7 scientist came to picture (James Gosling, Hardward Shield, Patrik Norton etc.) all of them wanted to create a PDA type hand held device which includes
+1. OOPs
+2. TCP / IP network programming (socket programming to join in internet with OOPs)
+3. Thread based application cz internet can not run in process based technology
+
+=> But ultimately that device did not metarialize for the reason of ahed of time, but they 
+ended up with something including all of those feature which was OAK 1.0 programming language
+
+=> They release an official web browser to run OAK which is hotjava and to make it official 
+they formed a company sun microsystem
+
+=> After ended up with all of these staff they added a new feature which is Platform 
+Independent which can run every where in every OS
+
+=> Whatever they have done in OAK for testing purpose they done it on UNIX platform not in 
+windows and microsoft becomes one of enemy of sun microsystem (sun microsystem VS Bill Gates)
+
+=> Day by Day the market of OAK becomes popular and later the name OAK is renamed with 
+Just Avail Vital Abstraction (JAVA -> JDK 1.0)
+
+=> JDK -> JVM + JRE + JDK
+
+=> Now the fight of microsoft and sun microsoft becmoes serious and in first stage microsoft 
+stopped the java support from Internet Explorer and for this reason sun microsystem filed a 
+case against microsoft and as a result microsoft lost in that case and a rule was published 
+from WWW that whoever wants to work on web they must be having the support of JVM in browser
+
+=> After that JVM integration process was started with all browsers (Two JVM was there -> 
+1. Local JVM & 2. Browser based JVM upto JAVA 7) java.com gives all support for this staff
+
+=> All features of JAVA:
+
+1. It is very simple (all complex staff like pointer, memory management, dangling unit has 
+been removed from java) It is very helpful from commercial aspect
+
+2. Rewrite OOPs in it's own way (like remove multiple inheritance, introduce interface, 
+remove friend concept etc.)
+
+3. It is platform independent (JVM takes this reponsability) and interpreted technology to 
+make it compatible with web (So it is portable and all compiler of JDK takes the same size 
+of memory during compilation thus no recompilation needed "Write once - run anytime anywhere")
+
+4. It is very secure (It supports cryptography, full level of digital encryption)
+
+5. It is robust (for 2 reasons):
+a) It is exceptionally good or has good exception handling features (runtime error management)
+b) It has got a beautiful features aka garbage collection (We don't have to think about free 
+memory or memory allocation or memory deallotment), all of these is handled by deamon thread 
+which takes care about all of the memory management present in JVM
+
+6. It supports any DB connectivity including nosql like mongodb
+
+7. Two uinqueness was first introduced by java - Threading & use of TCP / IP (we can configure 
+own browser lab, DHCP server using java)
+
+8. Initially JDK 1.0 is released by sun microsystem, from JDK 1.6 oracle purchase sun 
+microsystem (There was also a fight between Oracle VS IBM as contender of JAVA and Oracle wins 
+in that fight)
+
+N.B.: IBM has their own IBM-JDK (They rewrite JDK as their own way "Semeru Runtime Edition")
