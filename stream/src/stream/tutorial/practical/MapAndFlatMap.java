@@ -6,25 +6,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-class Person {
-
-	Integer id;
-	String name;
-	List<String> places;
-
-	public Person(Integer id, String name, List<String> places) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.places = places;
-	}
-
-	@Override
-	public String toString() {
-		return "Person [id=" + id + ", name=" + name + ", places=" + places + "]";
-	}
-
-}
+import stream.tutorial.pojo.Person;
 
 public class MapAndFlatMap {
 
