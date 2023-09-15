@@ -1,4 +1,4 @@
-# [http://www.avajava.com/tutorials/categories/design-patterns](Design Patterns)
+# [Design Patterns](http://www.avajava.com/tutorials/categories/design-patterns)
 
 - **Design patterns are the well-described solution of commonly occuring problems in software design**
 
