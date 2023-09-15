@@ -5,10 +5,10 @@
 ---
 
 - **NOTE:**
-1. Design Patterns are not some specific implementations. It represents nothing but an idea
-1. Sensible use of design patterns results in increased code maintainability
-1. Since in addition to being a good solution to a common problem, design patterns can be recognized by other developers, thus reducing the learning curve when dealing with a particular piece of code
-1. Types of design patterns include creational, structural, and behavioral design patterns
+1. Design Pattern is not a specific implementation. It represents nothing but an idea.
+1. Sensible use of design patterns results in increased code maintainability.
+1. Since in addition to being a good solution to a common problem, design patterns can be recognized by other developers, thus reducing the learning curve when dealing with a particular piece of code.
+1. Types of design patterns include creational, structural, and behavioral design patterns.
 
 ---
 
